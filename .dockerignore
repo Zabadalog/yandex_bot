@@ -1,0 +1,41 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Логи и временные файлы
+*.log
+logs/
+
+# SQLite, тестовые и временные файлы
+*.db
+*.sqlite3
+
+# Конфиденциальные данные
+.env
+.env.*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+.cache
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
