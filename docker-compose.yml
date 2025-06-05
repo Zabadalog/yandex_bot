@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - YD_CLIENT_ID=${YD_CLIENT_ID}
+    volumes:
+      - ./hihigs.db:/app/hihigs.db
+    restart: unless-stopped
