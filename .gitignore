@@ -39,3 +39,9 @@ htmlcov/
 *.pid
 *.tar
 docker-compose.override.yml
+
+# Repository metadata
+.git/
+
+# Tests
+tests/
