@@ -98,7 +98,7 @@ async def save_yandex_token(message: types.Message):
             await message.answer("Сначала зарегистрируйтесь через /start.")
             return
 
-        user_obj.yadisk_token = token
+        user_obj.token = token
         await session.commit()
 
     await message.answer("Токен Яндекс.Диска сохранён успешно")
